@@ -7,9 +7,9 @@ den_nc=[1 1 0] %denominador da funcao nao compensada
 funcao_nc=tf(num_nc, den_nc) %transforma em uma funcao de transferencia
 
 %rlocus(funcao_nc) %mostra o LR
-%sgrid(zeta,0) % Sobrepıe a reta de ultrapassagem
+%sgrid(zeta,0) % Sobrep√µe a reta de ultrapassagem
 %percentual desejada.
-%title(['LR sem compensaÁ„o com ',num2str(OS),...
+%title(['LR sem compensa√ß√£o com ',num2str(OS),...
 %'% de OS'])
 
 PD_nao_comp=-0.54+0.887*i;
